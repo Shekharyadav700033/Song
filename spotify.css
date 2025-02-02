@@ -1,0 +1,366 @@
+*{
+    padding:0;
+    margin:0;
+ 
+}
+body{
+  
+}
+header{
+    display:flex;
+    height:10vh;
+    width:100%;
+    background-color: #0c0b0b;
+  align-items: center;
+
+}
+header .spotify{
+margin-left:30px;
+height:30px;
+width:30px;
+border-radius:50%;
+overflow: hidden;
+align-items: center;
+color:#fff;
+
+}
+header .home{
+    margin-left:450px;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    background-color:#ded1d1;
+    overflow: hidden;
+
+
+  
+}
+header #search{
+    margin-left: 20px;
+    width:300px;
+    border-radius: 10px;
+   
+}
+header .singup{
+    margin-left:400px;
+    color:#fff;
+    background-color:#0c0b0b;
+}
+header #login{
+    margin-left:50px;
+    width:90px;
+    border-radius:10px;
+    background-color:#fbf7f7;
+    color:#101010;
+}
+
+.content{
+    width:100%;
+    height:85vh;
+    margin-top:4 px;
+    background: #080808;
+    display: flex;
+}
+
+.content .leftbox{
+    width:29%;
+    height:85vh;
+    background:rgba(8, 8, 8, 0.933)
+}
+
+
+.content .leftbox .library{
+    align-items:center;
+    display:flex;
+    height:8vh;
+    width:100%;
+    border-radius:15px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .library h{
+    margin-left:20px;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+   
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .library i{
+    margin-left:5px;
+    font-family: arial;
+    font-weight:600;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .library h1{
+    margin-left:250px;
+    font-family: arial;
+    background-color: #242323;
+    color:#fff;
+   
+}
+.content .leftbox .creta{
+    align-items:center;
+   
+    height:25vh;
+    width:100%;
+    border-radius:15px;
+    margin-top:10px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .creta h2{
+    font-size:25px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:40px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .creta h3{
+    font-size:22px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:30px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .creta #playlist{
+    width:130px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:30px;
+    border-radius:10px;
+    background-color:#fff;
+    color:#0e0e0e;
+}
+.content .leftbox .podcates{
+    align-items:center;
+  
+    height:25vh;
+    width:100%;
+    border-radius:15px;
+    margin-top:10px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .podcates h4{
+    font-size:20px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:40px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .podcates h5{
+    font-size:17px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:30px;
+    background-color: #242323;
+    color:#fff;
+}
+.content .leftbox .podcates #browse{
+    width:160px;
+    margin-top:0px;
+    margin-left:30px;
+    position:relative;
+    top:30px;
+    border-radius:10px;
+    background-color:#fff;
+    color:#0e0e0e;
+   
+}
+.content .leftbox .local{
+    align-items:center;
+    display:flex;
+    height:15vh;
+    width:100%;
+    border-radius:15px;
+    margin-top:10px;
+    background-color: #242323;
+    color:#fff;
+
+   
+}
+
+.content .leftbox .local p{
+position:relative;
+top:0px;
+margin-left:40px;
+overflow:hidden;
+word-spacing:20px;
+font-size:20px;
+font-weight:500;
+background-color: #242323;
+color:#fff;
+}
+
+.content .leftbox #language{
+    align-items:center;
+    display:flex;
+    height:6vh;
+    width:30%;
+    border-radius:15px;
+    margin-top:10px;
+    
+}
+.content .leftbox #language l{
+ margin-left:20px; 
+}
+.content .leftbox #language p{
+    margin-left:10px; 
+    position:relative;
+    top:10px;
+    font-size:15px;
+    font-weight:500;
+   }
+
+
+
+   .content .rightbox{
+    width:70%;
+    height:85vh;
+    background:rgba(40, 39, 39, 0.933);
+    margin-left:10px;
+    border-radius:10px;
+   
+}
+
+.content .rightbox .artists h6{
+ 
+    color:#fff;
+    margin-left:20px;
+    margin-top:20px;
+   
+}
+.content .rightbox .artists{
+    border-radius:10px;
+}
+.content .rightbox .artists .list1 .list2{
+ display:flex;
+ overflow:scroll;
+ margin-left:20px;
+ scrollbar-width: none;
+ list-style:none;
+   
+   
+}
+.content .rightbox .artists .list1 .list2 img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    margin:25px;
+
+}
+.content .rightbox .artists .list1 .list2 #shreya{
+  width:170px;
+  background:rgba(40, 39, 39, 0.933);
+    margin-left:12px;
+    border:1px solid #242323;
+    border-radius:10px;
+    color:#ffffff;
+
+}
+.content .rightbox .Allbums h7{
+ 
+    color:#fff;
+    margin-left:20px;
+    margin-top:20px;
+   
+}
+.content .rightbox .Allbums .list3 img{
+    height:175px;
+    width:175px;
+    border-radius:10%;
+    margin:25px;
+
+}
+.content .rightbox .Allbums .list3 #shreya{
+    width:170px;
+    background:rgba(40, 39, 39, 0.933);
+      margin-left:12px;
+      border:1px solid #242323;
+      border-radius:10px;
+      color:#ffff;
+  
+  }
+.content .rightbox .Allbums .list3{
+    display:flex;
+    overflow:scroll;
+    margin-left:20px;
+    scrollbar-width: none;
+    list-style:none;
+}
+.bottom{
+   height:5vh;
+    width:100%;
+    border-radius:5px;
+    margin-top:3px;
+background:linear-gradient(45deg,#dc1596,#3a0dce);
+
+line-height:2px;
+overflow: hidden;
+}
+ .bottom p{
+    font-family:Arial;
+    font-weight:900;
+    margin-top:2px;
+    left:20px;
+
+ }
+ .bottom  #p2{
+    font-family: 'Times New Roman';
+    font-weight:900;
+    margin-top:0px;
+    left:20px;
+    position: relative;
+    left:10px;
+
+ }
+ .bottom  #p2 #free{
+  position:relative;
+  left:700px;
+  top:3px;
+    width:130px;
+  background-color:#fff;
+  color:#0e0e0e;
+  height:30px;
+  border-radius: 10px;
+  font-weight: 800;
+
+ }
+ .content .rightbox .artists .list1 .list2 #shreya .song{
+    width:40px;
+    height:10px;
+  
+ }
+ .song{
+    width:300px;
+    height:300px;
+    background:linear-gradient(45deg,#160fa0,#c3bebe);
+    position:fixed;
+    top:100px;
+    right:20px;
+    border-radius: 20px;
+ }
+ /* .song #songimg{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #6863c3;
+    justify-content: center;
+    margin-top:10px;
+   margin-left: 100px;
+ }
+ .song audio{
+    overflow: hidden;
+    overflow:scroll
+ } */
